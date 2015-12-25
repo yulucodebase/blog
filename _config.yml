@@ -2,12 +2,12 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:               Yu Lu 
 tagline:             Grow organically via Coding 
-url:                 http://viacoding.com 
+url:                 "" 
 paginate:            10
 baseurl:             ""
 
@@ -24,7 +24,5 @@ author:
   url:               
   email:             
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              
+# Plugins
+gems:	[jekyll-paginate]
