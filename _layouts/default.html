@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
   {% include head.html %}
+  {% include google_analytics.html%}
 
   <body>
 
@@ -10,7 +10,7 @@
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
-          
+
           {% for menu_item in site.site_menu %}
             &nbsp;&nbsp;&nbsp;
             <small><a href="{{ menu_item[1]  }}">{{ menu_item[0] }}</a></small>
