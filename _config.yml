@@ -25,4 +25,9 @@ author:
   email:             
 
 # Plugins
-gems:	[jekyll-paginate]
+gems: [jekyll-paginate]
+
+# Site menu
+site_menu:
+    About: '/about'
+    Feed: '/atom.xml'
