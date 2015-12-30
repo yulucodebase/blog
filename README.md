@@ -1,6 +1,5 @@
 # TODO
 * Write 'About' page
 * ~~Add a navigation menu~~
-* Add Google Analytics
+* ~~Add Google Analytics~~
 * Enable comments
-
